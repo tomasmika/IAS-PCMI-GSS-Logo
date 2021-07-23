@@ -36,7 +36,7 @@ void draw() {
       String stringIAS = "IAS";
       float sw = textWidth(stringIAS);
       text(stringIAS, 30, 100);
-      // Insert |
+      // Insert "|" 
       stroke(150);
       strokeWeight(1);
       line(46+sw, 40, 48+sw, 117);
